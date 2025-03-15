@@ -18,10 +18,10 @@ git clone https://github.com/your-username/Quantum-encryption.git
 Navigate into the project directory:
 cd Quantum-encryption
 Add the original repository as a remote:
-git remote add upstream https://github.com/KevinityAlwaysCamelCase/Quantum-encryption.git
+<i>git remote add upstream https://github.com/KevinityAlwaysCamelCase/Quantum-encryption.git</i>
 2. Create a Branch
 Before making changes, create a new branch:
-git checkout -b feature-name
+<i>git checkout -b feature-name</i>
 3. Make Your Changes
 Improve the encryption or decryption algorithm.
 Optimize performance or increase accuracy.
@@ -29,11 +29,11 @@ Add tests or improve documentation.
 Fix bugs or report issues.
 4. Commit and Push
 Stage your changes:
-git add .
+<i>git add .</i> but make sure you put the useless files in .gitignore
 Commit with a meaningful message:
 git commit -m "message here(don't write something too big)"
 Push to your forked repository:
-git push origin feature-name
+<i>git push origin feature-name</i>
 5. Create a Pull Request (PR)
 Go to the original repository on GitHub.
 Click on the Pull Requests tab.
